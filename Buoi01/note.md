@@ -37,3 +37,8 @@ Git / Github:
     6.2. `git status` -> Xem trạng thái của repo hiện tại
     6.3. `git remote -v` -> Xem folder hiện tại có remote một repo nào hay không?
     6.4. `git add .` -> Thêm tất cả các file có sự thay đổi trong folder hiện tại để chuẩn bị upload lên github
+    6.5. `git commit -m "viet doan mo ta o day"` -> Cam kết sự thay đổi code của mình tại thời điểm hiện tại. Thêm đoạn mô tả ngắn xem mình đã làm gì hôm nay.
+    6.6. `git push origin main` hoặc `git push -u origin main` 
+      - `origin`: Tên của url remote tới repo
+      - `main`: Tên của nhánh (branch) mặc định trong mã nguồn
+      - Nếu đây là lần đầu tiên push code lên có thêm `-u`

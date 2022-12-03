@@ -1,0 +1,13 @@
+/* strong là một selector. Sau này mình sẽ học rất nhiều CSS Selectors để chọn những phần tử áp dụng CSS */
+.big-text-blue {
+  color: blue;
+  font-size: 50px;
+}
+
+
+h1 {
+  border: 2px solid Tomato;
+  border-bottom-width: 10px;
+  border-bottom-color: #4453d6;
+  border-bottom-style: double;
+}

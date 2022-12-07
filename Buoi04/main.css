@@ -1,0 +1,65 @@
+table, th, td {
+  border: 1px solid blue;
+}
+
+/* tr -> table row. Select vào tất cả các thẻ tr trong html */
+tr {
+  color: red;
+}
+
+td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* tr:nth-child(even). 
+  Select vào tất cả các thẻ tr trong html. 
+    Và vơi điều kiện nó là phần tử chẵn */
+tr:nth-child(even) {
+
+}
+
+/* table tr:nth-child(even). 
+  Select vào tất cả các thẻ tr là phần tử con của thẻ table. 
+    Và vơi điều kiện nó là phần tử chẵn */
+tr:nth-child(even) {
+  background-color: aqua;
+}
+
+tr:nth-child(odd) {
+  background-color: yellowgreen;
+}
+
+
+.table-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+/*
+  1. Làm sao CSS cho màu xen kẽ trong từng row của table
+    :nth-child(even)
+    :nth-child(odd)
+    :hover
+  
+  2. Làm sao để gộp hai border của table và td lại với nhau
+    border-collapse: collapse;
+
+  3. Làm sao cho bảng phình bự ra hơn.
+*/
+
+
+/* Chọn tất cả những thẻ tr có trong html với điều kiện con trỏ chuột "hover" vào phần tử đấy */
+tr:hover {
+  background-color: #D6EEEE;
+}
+
+
+
+h2 {
+  background-color: aqua;
+}
+
+h2:hover {
+  background-color: burlywood;
+}

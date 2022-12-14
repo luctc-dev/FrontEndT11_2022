@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 
+      - Thuộc tính action dùng để khai báo đường dẫn trỏ đến server mà dữ liệu sẽ được gửi tới khi submit 
+      - Thuộc tính target: Khai báo khi submit form thì mở một tab mới hay reload lại trang hiện tại. _blank dùng để mở một tab mới. Giống với thẻ <a>
+      - Thuộc tính method: Dùng để khai báo phương thức gửi dữ liệu lên Server.
+        + method="get": Gửi dữ liệu thông qua URL -> Kém bảo mật hơn
+          http://example.com?fullname=John&age=28   
+        + method="post": Gửi dữ liệu ngầm thông cơ chế khác "HTTP post transaction" -> Không thấy được dữ liệu trên URL
+  -->
+  <h1>Login</h1>
+  <form action="./back-end.php" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+
+    <input type="submit" value="Đăng nhập" />
+  </form>
+</body>
+</html>

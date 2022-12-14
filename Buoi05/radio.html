@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <!-- 
+    - Thuộc tính "name" dùng để khai báo nhóm dữ liệu của Radio. Nếu trùng "name" thì là chung một nhóm dữ liệu
+    - Thuộc tính "for" của thẻ <label> dùng để kết nối <label> và thẻ <input> thông qua thuộc tính "id". Người dùng có thể nhấn vào ô input hoặc nhấn vào label đều có tác dụng
+      -> Lưu ý: Thẻ label không nhất thiết phải nằm bên cạnh thẻ <input />
+
+   -->
+
+  <h2>Radio Buttons</h2>
+
+  <p>Choose your favorite Web language:</p>
+
+  <form>
+    <h2>Chọn môn học</h2>
+    <input type="radio" id="abc" name="subject">
+    <label for="abc">HTML</label><br>
+
+    <input type="radio" id="css" name="subject">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="subject">
+    <label for="javascript">JavaScript</label>
+
+    <h2>Chọn giới tính<h2>
+    <input type="radio" id="nam" name="gender">
+    <label for="nam">Nam</label>
+
+    <input type="radio" id="nu" name="gender">
+    <label for="nu">Nữ</label>
+
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-wheat {
+  background-color: wheat;
+}
+.bg-aqua {
+  background-color: aqua;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-item {
+  display: inline-block;  
+  width: 25%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.product-item:nth-child(odd) {
+  background-color: wheat;
+}
+.product-item:nth-child(even) {
+  background-color: aqua;
+}
+
+.list-product {
+  font-size: 0;
+}
+
+
+.list-two-buttons {
+  font-size: 0;
+}
+.list-two-buttons button {
+  display: inline-block;
+  background-color: #04AA6D;
+  color: #ffffff;
+  border: 2px solid #04AA6D;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.list-two-buttons button:hover {
+  background-color: #059862;
+  border-color: #059862;
+}
+
+.btn-home-wrapper,
+.btn-next-wrapper {
+  width: 50%;
+  display: inline-block;
+}
+
+.btn-next-wrapper {
+  text-align: right;
+}

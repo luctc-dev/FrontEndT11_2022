@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Sizing</title>
+  <style>
+    * {
+      /* Đại diện cho tất cả các phần tử */
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: antiquewhite;
+      border: 10px solid blueviolet;
+      padding: 10px 20px;
+      /* box-sizing: border-box; */
+    }
+
+    .container-2 {
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: bisque;
+      border: 10px solid red;
+      /* box-sizing: border-box; */
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ut molestiae id fugiat tempore fugit, consequuntur ex, culpa ab blanditiis facere voluptatem vero accusantium nisi quisquam eos perferendis nulla sint!
+    </div>
+    <div class="container-2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ut molestiae id fugiat tempore fugit, consequuntur ex, culpa ab blanditiis facere voluptatem vero accusantium nisi quisquam eos perferendis nulla sint!
+    </div>
+</body>
+</html>

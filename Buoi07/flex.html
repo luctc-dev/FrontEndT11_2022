@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: aliceblue;
+    }
+
+    .list-product {
+      display: flex;
+      flex-wrap: wrap;
+      /* flex-flow: column wrap; */
+    }
+    .product-item::first-letter {
+      background-color: blue;
+      color: white;
+      padding: 0 10px;
+    }
+    .product-item {
+      width: 33.333%;
+    }
+    .product-item:nth-child(even) {
+      background-color: yellow;
+    }
+    .product-item:nth-child(odd) {
+      background-color: violet;
+    }
+
+    /* Two Buttons */
+    .list-two-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+    .list-two-buttons button {
+      background-color: #04AA6D;
+      color: #ffffff;
+      border: 2px solid #04AA6D;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .list-two-buttons button:hover {
+      background-color: #059862;
+      border-color: #059862;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Flex Container -->
+    <div class="list-product">
+      <!-- Flex Item -->
+      <div class="product-item">
+        1Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores consequuntur quam ipiatis, nesciunt quos accusamus unde nostrum asperiores inventore ab repudiandae esse?
+      </div>
+      <!-- Flex Item -->
+      <div class="product-item">
+        2Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </div>
+      <!-- Flex Item -->
+      <div class="product-item">
+        3Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores consequuntur quam ipsum at cupiditate pariatur magnam eligendi blanditiis rem perspiciatis, nesciunt quos accusamus unde nostrum asperiores invediandae esse?
+      </div>
+      <!-- Flex Item -->
+      <div class="product-item">
+        4Lorem ipsum dolor sit amet coerspiciatis, nesciunt quos accusamus unde nostrum asperiores inventore ab repudiandae esse?
+      </div>
+    </div>
+
+    <!-- Flex Container -->
+    <div class="list-two-buttons">
+      <!-- Flex Item -->
+      <button>Home</button>
+      <!-- Flex Item -->
+      <button>Next</button>
+    </div>
+  </div>
+</body>
+</html>

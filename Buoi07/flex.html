@@ -7,6 +7,8 @@
   <title>Document</title>
   <style>
     * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
 
@@ -54,6 +56,34 @@
       background-color: #059862;
       border-color: #059862;
     }
+
+    .article-item {
+      display: flex;
+    }
+    .article-thumbnail {
+      width: 30%;
+    }
+    .article-thumbnail img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .article-content {
+      width: 70%;
+      padding-left: 20px
+    }
+
+    .article-author {
+      display: flex;
+      align-items: center;
+    }
+    .article-author img {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+    }
+    .article-author--name {
+      padding-left: 5px;
+    }
   </style>
 </head>
 <body>
@@ -84,6 +114,25 @@
       <button>Home</button>
       <!-- Flex Item -->
       <button>Next</button>
+    </div>
+
+    <div class="article-list">
+      <div class="article-item">
+        <a class="article-thumbnail" href="https://tinhte.vn/thread/tang-qua-gi-cho-nguoi-yeu-ban-phim-co-mau-huong.3633320/">
+            <img src="https://imgproxy7.tinhte.vn/H2Hxg8wincNvVX-8ctlmatngCKVxbF_tjtdpED1IIbU/h:460/plain/https://photo2.tinhte.vn/data/attachment-files/2023/02/6328317_cover_banphimco.jpg" />
+        </a>
+        <div class="article-content">
+          <a class="article-title" href="https://tinhte.vn/thread/tang-qua-gi-cho-nguoi-yeu-ban-phim-co-mau-huong.3633320/">
+            <h3>Trên tay Waterpik Cordless Advanced: Tăm nước được ưa chuộng nhất của Mỹ</h3>
+          </a>
+          <p class="article-desc">Qua tìm hiểu để mua tăm nước thì mình thấy rằng hãng tăm nước được ưa chuộng nhất của Mỹ là Waterpik chứ không phải Panasonic, Philips hay Oral-B. Mình đã đặt mua Cordless Advanced, mẫu tăm nước không dây cao cấp được đánh giá rất cao của Waterpik…</p>
+          <div class="article-author">
+            <img class="article-author--avatar" src="https://photo2.tinhte.vn/data/avatars/m/1539/1539323.jpg?1524590522" />
+            <p class="article-author--name">BaroTo</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Similac Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="similac.css">
+</head>
+
+<body>
+  <div class="similac-form">
+    <h2 class="similac-form--title">Điền mẫu nhận quà - Cả nhà đều vui</h2>
+    <div class="similac-form--step">
+      <div class="similac-form--step-gray"></div>
+      <div class="similac-form--step-active"> </div>
+    </div>
+    <form>
+      <div class="similac-form--email">
+        <input placeholder="Địa chỉ email" />
+        <button class="similac-form--submit">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.4201 4.45142C11.2069 4.45142 10.9934 4.53427 10.8309 4.69718L10.7593 4.7688C10.4334 5.09463 10.4334 5.62218 10.7593 5.94718L13.9787 9.16658H3.08675C2.62675 9.16658 2.25342 9.53992 2.25342 9.99992C2.25342 10.4599 2.62675 10.8333 3.08675 10.8333H13.9787L10.7593 14.0527C10.4334 14.3785 10.4334 14.906 10.7593 15.231L10.8309 15.3027C11.1567 15.6285 11.6843 15.6285 12.0093 15.3027L16.7228 10.5891C17.0487 10.2633 17.0487 9.73573 16.7228 9.41073L12.0093 4.69718C11.8464 4.53427 11.6333 4.45142 11.4201 4.45142Z"
+              fill="white" />
+          </svg>
+        </button>
+      </div>
+      <!-- <div class="similac-form--term">
+
+        </div> -->
+      <label class="similac-form--term">
+        Tôi đã đọc và đồng ý với các điều khoản và chương trình của Hello Bacsi và Abbott Similac và được hướng dẫn cách
+        ngưng chương trình
+        <input type="checkbox" checked="checked">
+        <span class="checkmark">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" width="14px" height="14px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+            xml:space="preserve">
+            <g id="Icon_1_">
+              <g>
+                <g>
+                  <polygon points="186.301,339.893 96,249.461 64,279.968 186.301,402 448,140.506 416,110 			" />
+                </g>
+              </g>
+            </g>
+          </svg>
+
+        </span>
+      </label>
+    </form>
+  </div>
+</body>
+
+</html>
+
+
+<!-- 
+  .container input:checked ~ .checkmark 
+  .container -> Truy cập vào class container
+  
+  .container input -> Truy cập vào thẻ input nằm bên trong class container (Bao gồm cả checked và unchecked)
+  .container input:checked 
+    -> Truy cập vào thẻ input nằm bên trong class container với điều kiện input đó checked
+    -> Chọn tất cả các phần tử/thẻ input checked với điều kiện nó nằm bên trong class container
+  
+  .container input:checked ~ .checkmark 
+    -> Truy cập vào class .checkmark với điều kiện class .checkmark nằm phía sau thẻ input đã được check. Và thẻ input này phải nằm bên trong class container
+-->
